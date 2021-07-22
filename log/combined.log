@@ -1,0 +1,450 @@
+{"message":" * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.","level":"WARNING","service":"api","timestamp":"2021-07-22 18:49:12,505"}
+{"message":" * Running on http://172.18.0.2:5000/ (Press CTRL+C to quit)","level":"INFO","service":"api","timestamp":"2021-07-22 18:49:12,506"}
+{"message":" * Restarting with stat","level":"INFO","service":"api","timestamp":"2021-07-22 18:49:12,510"}
+{"message":" * Debugger is active!","level":"WARNING","service":"api","timestamp":"2021-07-22 18:49:12,810"}
+{"message":" * Debugger PIN: 123-971-016","level":"INFO","service":"api","timestamp":"2021-07-22 18:49:12,811"}
+{"message":" * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.","level":"WARNING","service":"api","timestamp":"2021-07-22 18:51:02,752"}
+{"message":" * Running on http://172.18.0.2:5000/ (Press CTRL+C to quit)","level":"INFO","service":"api","timestamp":"2021-07-22 18:51:02,752"}
+{"message":" * Restarting with stat","level":"INFO","service":"api","timestamp":"2021-07-22 18:51:02,755"}
+{"message":" * Debugger is active!","level":"WARNING","service":"api","timestamp":"2021-07-22 18:51:03,033"}
+{"message":" * Debugger PIN: 123-971-016","level":"INFO","service":"api","timestamp":"2021-07-22 18:51:03,034"}
+{"message":"172.18.0.1 - - [22/Jul/2021 18:52:38] "[31m[1mGET / HTTP/1.1[0m" 405 -","level":"INFO","service":"api","timestamp":"2021-07-22 18:52:38,891"}
+{"message":"172.18.0.1 - - [22/Jul/2021 18:52:38] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -","level":"INFO","service":"api","timestamp":"2021-07-22 18:52:38,971"}
+{"message":"172.18.0.1 - - [22/Jul/2021 18:52:41] "[31m[1mGET / HTTP/1.1[0m" 405 -","level":"INFO","service":"api","timestamp":"2021-07-22 18:52:41,861"}
+{"message":"172.18.0.1 - - [22/Jul/2021 18:54:21] "[31m[1mGET / HTTP/1.1[0m" 405 -","level":"INFO","service":"api","timestamp":"2021-07-22 18:54:21,926"}
+{"message":" * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.","level":"WARNING","service":"api","timestamp":"2021-07-22 18:54:33,717"}
+{"message":" * Running on http://172.18.0.3:5000/ (Press CTRL+C to quit)","level":"INFO","service":"api","timestamp":"2021-07-22 18:54:33,718"}
+{"message":" * Restarting with stat","level":"INFO","service":"api","timestamp":"2021-07-22 18:54:33,722"}
+{"message":" * Debugger is active!","level":"WARNING","service":"api","timestamp":"2021-07-22 18:54:34,008"}
+{"message":" * Debugger PIN: 165-501-012","level":"INFO","service":"api","timestamp":"2021-07-22 18:54:34,010"}
+{"message":"172.18.0.1 - - [22/Jul/2021 18:54:44] "[31m[1mGET / HTTP/1.1[0m" 405 -","level":"INFO","service":"api","timestamp":"2021-07-22 18:54:44,329"}
+{"message":"172.18.0.1 - - [22/Jul/2021 18:54:46] "[31m[1mGET / HTTP/1.1[0m" 405 -","level":"INFO","service":"api","timestamp":"2021-07-22 18:54:46,170"}
+{"message":" * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.","level":"WARNING","service":"api","timestamp":"2021-07-22 18:56:40,762"}
+{"message":" * Running on http://172.18.0.3:5000/ (Press CTRL+C to quit)","level":"INFO","service":"api","timestamp":"2021-07-22 18:56:40,763"}
+{"message":" * Restarting with stat","level":"INFO","service":"api","timestamp":"2021-07-22 18:56:40,766"}
+{"message":" * Debugger is active!","level":"WARNING","service":"api","timestamp":"2021-07-22 18:56:41,047"}
+{"message":" * Debugger PIN: 127-750-038","level":"INFO","service":"api","timestamp":"2021-07-22 18:56:41,049"}
+{"message":"172.18.0.1 - - [22/Jul/2021 18:56:48] "GET / HTTP/1.1" 200 -","level":"INFO","service":"api","timestamp":"2021-07-22 18:56:48,112"}
+{"message":"172.18.0.1 - - [22/Jul/2021 18:56:48] "GET / HTTP/1.1" 200 -","level":"INFO","service":"api","timestamp":"2021-07-22 18:56:48,794"}
+{"message":"172.18.0.1 - - [22/Jul/2021 18:56:49] "GET / HTTP/1.1" 200 -","level":"INFO","service":"api","timestamp":"2021-07-22 18:56:49,178"}
+{"message":"172.18.0.1 - - [22/Jul/2021 18:56:49] "GET / HTTP/1.1" 200 -","level":"INFO","service":"api","timestamp":"2021-07-22 18:56:49,689"}
+{"message":"172.18.0.1 - - [22/Jul/2021 18:58:42] "GET / HTTP/1.1" 200 -","level":"INFO","service":"api","timestamp":"2021-07-22 18:58:42,840"}
+{"message":"172.18.0.1 - - [22/Jul/2021 18:58:44] "GET / HTTP/1.1" 200 -","level":"INFO","service":"api","timestamp":"2021-07-22 18:58:44,120"}
+{"message":"172.18.0.1 - - [22/Jul/2021 18:58:44] "GET / HTTP/1.1" 200 -","level":"INFO","service":"api","timestamp":"2021-07-22 18:58:44,863"}
+{"message":" * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.","level":"WARNING","service":"api","timestamp":"2021-07-22 18:59:51,398"}
+{"message":" * Running on http://172.18.0.3:5000/ (Press CTRL+C to quit)","level":"INFO","service":"api","timestamp":"2021-07-22 18:59:51,398"}
+{"message":" * Restarting with stat","level":"INFO","service":"api","timestamp":"2021-07-22 18:59:51,402"}
+{"message":" * Debugger is active!","level":"WARNING","service":"api","timestamp":"2021-07-22 18:59:51,690"}
+{"message":" * Debugger PIN: 187-357-180","level":"INFO","service":"api","timestamp":"2021-07-22 18:59:51,691"}
+{"message":"172.18.0.1 - - [22/Jul/2021 18:59:54] "GET / HTTP/1.1" 200 -","level":"INFO","service":"api","timestamp":"2021-07-22 18:59:54,236"}
+{"message":"172.18.0.1 - - [22/Jul/2021 18:59:59] "[31m[1mPOST / HTTP/1.1[0m" 405 -","level":"INFO","service":"api","timestamp":"2021-07-22 18:59:59,792"}
+{"message":"172.18.0.1 - - [22/Jul/2021 19:00:58] "[31m[1mPOST / HTTP/1.1[0m" 405 -","level":"INFO","service":"api","timestamp":"2021-07-22 19:00:58,891"}
+{"message":" * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.","level":"WARNING","service":"api","timestamp":"2021-07-22 19:01:21,735"}
+{"message":" * Running on http://172.18.0.3:5000/ (Press CTRL+C to quit)","level":"INFO","service":"api","timestamp":"2021-07-22 19:01:21,736"}
+{"message":" * Restarting with stat","level":"INFO","service":"api","timestamp":"2021-07-22 19:01:21,739"}
+{"message":" * Debugger is active!","level":"WARNING","service":"api","timestamp":"2021-07-22 19:01:22,020"}
+{"message":" * Debugger PIN: 121-579-644","level":"INFO","service":"api","timestamp":"2021-07-22 19:01:22,022"}
+{"message":"172.18.0.1 - - [22/Jul/2021 19:02:05] "[35m[1mPOST / HTTP/1.1[0m" 500 -","level":"INFO","service":"api","timestamp":"2021-07-22 19:02:05,473"}
+{"message":"172.18.0.1 - - [22/Jul/2021 19:02:05] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -","level":"INFO","service":"api","timestamp":"2021-07-22 19:02:05,494"}
+{"message":"172.18.0.1 - - [22/Jul/2021 19:02:05] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -","level":"INFO","service":"api","timestamp":"2021-07-22 19:02:05,495"}
+{"message":"172.18.0.1 - - [22/Jul/2021 19:02:05] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -","level":"INFO","service":"api","timestamp":"2021-07-22 19:02:05,515"}
+{"message":"172.18.0.1 - - [22/Jul/2021 19:02:05] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -","level":"INFO","service":"api","timestamp":"2021-07-22 19:02:05,633"}
+{"message":" * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.","level":"WARNING","service":"api","timestamp":"2021-07-22 19:20:59,155"}
+{"message":" * Running on http://172.18.0.3:5000/ (Press CTRL+C to quit)","level":"INFO","service":"api","timestamp":"2021-07-22 19:20:59,155"}
+{"message":" * Restarting with stat","level":"INFO","service":"api","timestamp":"2021-07-22 19:20:59,156"}
+{"message":" * Debugger is active!","level":"WARNING","service":"api","timestamp":"2021-07-22 19:20:59,500"}
+{"message":" * Debugger PIN: 130-719-177","level":"INFO","service":"api","timestamp":"2021-07-22 19:20:59,502"}
+{"message":"172.18.0.1 - - [22/Jul/2021 19:21:56] "GET / HTTP/1.1" 200 -","level":"INFO","service":"api","timestamp":"2021-07-22 19:21:56,423"}
+{"message":"{'Received': {'file': <FileStorage: '3.png' ('image/png')>, 'task_id': UUID('a9af6200-cf3e-49a5-b1cc-ac363e36d1c9')}}","level":"INFO","service":"api","timestamp":"2021-07-22 19:22:10,812"}
+{"message":"172.18.0.1 - - [22/Jul/2021 19:22:10] "[35m[1mPOST / HTTP/1.1[0m" 500 -","level":"INFO","service":"api","timestamp":"2021-07-22 19:22:10,836"}
+{"message":"172.18.0.1 - - [22/Jul/2021 19:22:10] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -","level":"INFO","service":"api","timestamp":"2021-07-22 19:22:10,871"}
+{"message":"172.18.0.1 - - [22/Jul/2021 19:22:10] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -","level":"INFO","service":"api","timestamp":"2021-07-22 19:22:10,873"}
+{"message":"172.18.0.1 - - [22/Jul/2021 19:22:10] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -","level":"INFO","service":"api","timestamp":"2021-07-22 19:22:10,890"}
+{"message":"172.18.0.1 - - [22/Jul/2021 19:22:10] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -","level":"INFO","service":"api","timestamp":"2021-07-22 19:22:10,994"}
+{"message":" * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.","level":"WARNING","service":"api","timestamp":"2021-07-22 19:22:52,680"}
+{"message":" * Running on http://172.18.0.4:5000/ (Press CTRL+C to quit)","level":"INFO","service":"api","timestamp":"2021-07-22 19:22:52,680"}
+{"message":" * Restarting with stat","level":"INFO","service":"api","timestamp":"2021-07-22 19:22:52,683"}
+{"message":" * Debugger is active!","level":"WARNING","service":"api","timestamp":"2021-07-22 19:22:53,039"}
+{"message":" * Debugger PIN: 143-831-617","level":"INFO","service":"api","timestamp":"2021-07-22 19:22:53,040"}
+{"message":"{'Received': {'file': <FileStorage: '3.png' ('image/png')>, 'task_id': UUID('909a60ef-4fc5-4dd6-af5c-5912152166bd')}}","level":"INFO","service":"api","timestamp":"2021-07-22 19:23:36,886"}
+{"message":"172.18.0.1 - - [22/Jul/2021 19:23:36] "[35m[1mPOST / HTTP/1.1[0m" 500 -","level":"INFO","service":"api","timestamp":"2021-07-22 19:23:36,933"}
+{"message":"172.18.0.1 - - [22/Jul/2021 19:23:36] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -","level":"INFO","service":"api","timestamp":"2021-07-22 19:23:36,964"}
+{"message":"172.18.0.1 - - [22/Jul/2021 19:23:36] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -","level":"INFO","service":"api","timestamp":"2021-07-22 19:23:36,965"}
+{"message":"172.18.0.1 - - [22/Jul/2021 19:23:36] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -","level":"INFO","service":"api","timestamp":"2021-07-22 19:23:36,996"}
+{"message":"172.18.0.1 - - [22/Jul/2021 19:23:37] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -","level":"INFO","service":"api","timestamp":"2021-07-22 19:23:37,091"}
+{"message":"{'Received': {'file': <FileStorage: '3.png' ('image/png')>, 'task_id': UUID('910327b4-0e8b-4695-b919-75963733d3ad')}}","level":"INFO","service":"api","timestamp":"2021-07-22 19:23:39,794"}
+{"message":"172.18.0.1 - - [22/Jul/2021 19:23:39] "[35m[1mPOST / HTTP/1.1[0m" 500 -","level":"INFO","service":"api","timestamp":"2021-07-22 19:23:39,811"}
+{"message":"172.18.0.1 - - [22/Jul/2021 19:23:39] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -","level":"INFO","service":"api","timestamp":"2021-07-22 19:23:39,849"}
+{"message":"172.18.0.1 - - [22/Jul/2021 19:23:39] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -","level":"INFO","service":"api","timestamp":"2021-07-22 19:23:39,851"}
+{"message":"172.18.0.1 - - [22/Jul/2021 19:23:39] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -","level":"INFO","service":"api","timestamp":"2021-07-22 19:23:39,890"}
+{"message":"172.18.0.1 - - [22/Jul/2021 19:23:39] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -","level":"INFO","service":"api","timestamp":"2021-07-22 19:23:39,925"}
+{"message":" * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.","level":"WARNING","service":"api","timestamp":"2021-07-22 19:27:12,650"}
+{"message":" * Running on http://172.18.0.4:5000/ (Press CTRL+C to quit)","level":"INFO","service":"api","timestamp":"2021-07-22 19:27:12,650"}
+{"message":" * Restarting with stat","level":"INFO","service":"api","timestamp":"2021-07-22 19:27:12,652"}
+{"message":" * Debugger is active!","level":"WARNING","service":"api","timestamp":"2021-07-22 19:27:13,050"}
+{"message":" * Debugger PIN: 811-634-940","level":"INFO","service":"api","timestamp":"2021-07-22 19:27:13,053"}
+{"message":"{'Received': {'file': <FileStorage: '3.png' ('image/png')>, 'task_id': UUID('c30f82be-3ffc-45b5-b345-241a389c2a53')}}","level":"INFO","service":"api","timestamp":"2021-07-22 19:27:50,292"}
+{"message":"172.18.0.1 - - [22/Jul/2021 19:27:50] "[35m[1mPOST / HTTP/1.1[0m" 500 -","level":"INFO","service":"api","timestamp":"2021-07-22 19:27:50,316"}
+{"message":"172.18.0.1 - - [22/Jul/2021 19:27:50] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -","level":"INFO","service":"api","timestamp":"2021-07-22 19:27:50,359"}
+{"message":"172.18.0.1 - - [22/Jul/2021 19:27:50] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -","level":"INFO","service":"api","timestamp":"2021-07-22 19:27:50,359"}
+{"message":"172.18.0.1 - - [22/Jul/2021 19:27:50] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -","level":"INFO","service":"api","timestamp":"2021-07-22 19:27:50,379"}
+{"message":"172.18.0.1 - - [22/Jul/2021 19:27:50] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -","level":"INFO","service":"api","timestamp":"2021-07-22 19:27:50,407"}
+{"message":" * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.","level":"WARNING","service":"api","timestamp":"2021-07-22 19:29:06,660"}
+{"message":" * Running on http://172.18.0.4:5000/ (Press CTRL+C to quit)","level":"INFO","service":"api","timestamp":"2021-07-22 19:29:06,661"}
+{"message":" * Restarting with stat","level":"INFO","service":"api","timestamp":"2021-07-22 19:29:06,662"}
+{"message":" * Debugger is active!","level":"WARNING","service":"api","timestamp":"2021-07-22 19:29:07,001"}
+{"message":" * Debugger PIN: 329-814-261","level":"INFO","service":"api","timestamp":"2021-07-22 19:29:07,003"}
+{"message":"{'Received': {'file': <FileStorage: '3.png' ('image/png')>, 'task_id': UUID('c4507bf6-2325-45cf-85b7-3515f04d00c0')}}","level":"INFO","service":"api","timestamp":"2021-07-22 19:29:25,692"}
+{"message":"Задача c4507bf6-2325-45cf-85b7-3515f04d00c0 отправлена в очередь","level":"INFO","service":"api","timestamp":"2021-07-22 19:29:25,695"}
+{"message":"Pika version 1.1.0 connecting to ('172.18.0.2', 5672)","level":"INFO","service":"api","timestamp":"2021-07-22 19:29:25,701"}
+{"message":"Socket connected: <socket.socket fd=13, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.18.0.4', 52536), raddr=('172.18.0.2', 5672)>","level":"INFO","service":"api","timestamp":"2021-07-22 19:29:25,703"}
+{"message":"Streaming transport linked up: (<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7f02b83bd8b0>, _StreamingProtocolShim: <SelectConnection PROTOCOL transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7f02b83bd8b0> params=<URLParameters host=queue port=5672 virtual_host=/ ssl=False>>).","level":"INFO","service":"api","timestamp":"2021-07-22 19:29:25,706"}
+{"message":"AMQPConnector - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7f02b83bd8b0> params=<URLParameters host=queue port=5672 virtual_host=/ ssl=False>>","level":"INFO","service":"api","timestamp":"2021-07-22 19:29:25,713"}
+{"message":"AMQPConnectionWorkflow - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7f02b83bd8b0> params=<URLParameters host=queue port=5672 virtual_host=/ ssl=False>>","level":"INFO","service":"api","timestamp":"2021-07-22 19:29:25,715"}
+{"message":"Connection workflow succeeded: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7f02b83bd8b0> params=<URLParameters host=queue port=5672 virtual_host=/ ssl=False>>","level":"INFO","service":"api","timestamp":"2021-07-22 19:29:25,715"}
+{"message":"Created channel=1","level":"INFO","service":"api","timestamp":"2021-07-22 19:29:25,716"}
+{"message":"Object of type UUID is not JSON serializable","level":"ERROR","service":"api","timestamp":"2021-07-22 19:29:25,729"}
+Traceback (most recent call last):
+  File "/home/app/main.py", line 77, in upload_file
+    json.dumps(task_data))
+  File "/usr/local/lib/python3.9/json/__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "/usr/local/lib/python3.9/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/local/lib/python3.9/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/usr/local/lib/python3.9/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type UUID is not JSON serializable
+{"message":"172.18.0.1 - - [22/Jul/2021 19:29:25] "[35m[1mPOST / HTTP/1.1[0m" 500 -","level":"INFO","service":"api","timestamp":"2021-07-22 19:29:25,747"}
+{"message":"172.18.0.1 - - [22/Jul/2021 19:29:25] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -","level":"INFO","service":"api","timestamp":"2021-07-22 19:29:25,779"}
+{"message":"172.18.0.1 - - [22/Jul/2021 19:29:25] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -","level":"INFO","service":"api","timestamp":"2021-07-22 19:29:25,780"}
+{"message":"172.18.0.1 - - [22/Jul/2021 19:29:25] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -","level":"INFO","service":"api","timestamp":"2021-07-22 19:29:25,798"}
+{"message":"172.18.0.1 - - [22/Jul/2021 19:29:25] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -","level":"INFO","service":"api","timestamp":"2021-07-22 19:29:25,837"}
+{"message":" * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.","level":"WARNING","service":"api","timestamp":"2021-07-22 19:34:33,267"}
+{"message":" * Running on http://172.18.0.4:5000/ (Press CTRL+C to quit)","level":"INFO","service":"api","timestamp":"2021-07-22 19:34:33,268"}
+{"message":" * Restarting with stat","level":"INFO","service":"api","timestamp":"2021-07-22 19:34:33,269"}
+{"message":" * Debugger is active!","level":"WARNING","service":"api","timestamp":"2021-07-22 19:34:33,609"}
+{"message":" * Debugger PIN: 143-334-211","level":"INFO","service":"api","timestamp":"2021-07-22 19:34:33,610"}
+{"message":"{'Received': {'file': <FileStorage: '3.png' ('image/png')>, 'task_id': '383c1418-6707-4a8f-946f-d5e776f51cf8'}}","level":"INFO","service":"api","timestamp":"2021-07-22 19:35:20,586"}
+{"message":"172.18.0.1 - - [22/Jul/2021 19:35:20] "[35m[1mPOST / HTTP/1.1[0m" 500 -","level":"INFO","service":"api","timestamp":"2021-07-22 19:35:20,606"}
+{"message":"172.18.0.1 - - [22/Jul/2021 19:35:20] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -","level":"INFO","service":"api","timestamp":"2021-07-22 19:35:20,649"}
+{"message":"172.18.0.1 - - [22/Jul/2021 19:35:20] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -","level":"INFO","service":"api","timestamp":"2021-07-22 19:35:20,655"}
+{"message":"172.18.0.1 - - [22/Jul/2021 19:35:20] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -","level":"INFO","service":"api","timestamp":"2021-07-22 19:35:20,669"}
+{"message":"172.18.0.1 - - [22/Jul/2021 19:35:20] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -","level":"INFO","service":"api","timestamp":"2021-07-22 19:35:20,722"}
+{"message":" * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.","level":"WARNING","service":"api","timestamp":"2021-07-22 19:35:54,784"}
+{"message":" * Running on http://172.18.0.4:5000/ (Press CTRL+C to quit)","level":"INFO","service":"api","timestamp":"2021-07-22 19:35:54,784"}
+{"message":" * Restarting with stat","level":"INFO","service":"api","timestamp":"2021-07-22 19:35:54,785"}
+{"message":" * Debugger is active!","level":"WARNING","service":"api","timestamp":"2021-07-22 19:35:55,125"}
+{"message":" * Debugger PIN: 845-741-565","level":"INFO","service":"api","timestamp":"2021-07-22 19:35:55,126"}
+{"message":"{'Received': {'file': <FileStorage: '3.png' ('image/png')>, 'task_id': '44c4947d-557e-4830-b4e9-76f30b4d9deb'}}","level":"INFO","service":"api","timestamp":"2021-07-22 19:36:04,486"}
+{"message":"172.18.0.1 - - [22/Jul/2021 19:36:04] "[35m[1mPOST / HTTP/1.1[0m" 500 -","level":"INFO","service":"api","timestamp":"2021-07-22 19:36:04,512"}
+{"message":"172.18.0.1 - - [22/Jul/2021 19:36:04] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -","level":"INFO","service":"api","timestamp":"2021-07-22 19:36:04,565"}
+{"message":"172.18.0.1 - - [22/Jul/2021 19:36:04] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -","level":"INFO","service":"api","timestamp":"2021-07-22 19:36:04,577"}
+{"message":"172.18.0.1 - - [22/Jul/2021 19:36:04] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -","level":"INFO","service":"api","timestamp":"2021-07-22 19:36:04,610"}
+{"message":"172.18.0.1 - - [22/Jul/2021 19:36:04] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -","level":"INFO","service":"api","timestamp":"2021-07-22 19:36:04,680"}
+{"message":" * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.","level":"WARNING","service":"api","timestamp":"2021-07-22 19:37:18,437"}
+{"message":" * Running on http://172.18.0.4:5000/ (Press CTRL+C to quit)","level":"INFO","service":"api","timestamp":"2021-07-22 19:37:18,438"}
+{"message":" * Restarting with stat","level":"INFO","service":"api","timestamp":"2021-07-22 19:37:18,439"}
+{"message":" * Debugger is active!","level":"WARNING","service":"api","timestamp":"2021-07-22 19:37:18,781"}
+{"message":" * Debugger PIN: 297-453-738","level":"INFO","service":"api","timestamp":"2021-07-22 19:37:18,782"}
+{"message":"{'Received': {'file': <FileStorage: '3.png' ('image/png')>, 'task_id': '651f922f-d9c7-4c36-9879-78ccf31bc63e'}}","level":"INFO","service":"api","timestamp":"2021-07-22 19:37:30,117"}
+{"message":"Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fa29b214f70>: Failed to establish a new connection: [Errno 111] Connection refused')': /images?location=","level":"WARNING","service":"api","timestamp":"2021-07-22 19:37:30,123"}
+{"message":"Retrying (Retry(total=3, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fa2999a4070>: Failed to establish a new connection: [Errno 111] Connection refused')': /images?location=","level":"WARNING","service":"api","timestamp":"2021-07-22 19:37:30,525"}
+{"message":"Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fa2999a4250>: Failed to establish a new connection: [Errno 111] Connection refused')': /images?location=","level":"WARNING","service":"api","timestamp":"2021-07-22 19:37:31,327"}
+{"message":"Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fa2999a43d0>: Failed to establish a new connection: [Errno 111] Connection refused')': /images?location=","level":"WARNING","service":"api","timestamp":"2021-07-22 19:37:32,932"}
+{"message":"Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fa2999a4640>: Failed to establish a new connection: [Errno 111] Connection refused')': /images?location=","level":"WARNING","service":"api","timestamp":"2021-07-22 19:37:36,138"}
+{"message":"172.18.0.1 - - [22/Jul/2021 19:37:36] "[35m[1mPOST / HTTP/1.1[0m" 500 -","level":"INFO","service":"api","timestamp":"2021-07-22 19:37:36,198"}
+{"message":"172.18.0.1 - - [22/Jul/2021 19:37:36] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -","level":"INFO","service":"api","timestamp":"2021-07-22 19:37:36,235"}
+{"message":"172.18.0.1 - - [22/Jul/2021 19:37:36] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -","level":"INFO","service":"api","timestamp":"2021-07-22 19:37:36,235"}
+{"message":"172.18.0.1 - - [22/Jul/2021 19:37:36] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -","level":"INFO","service":"api","timestamp":"2021-07-22 19:37:36,259"}
+{"message":"172.18.0.1 - - [22/Jul/2021 19:37:36] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -","level":"INFO","service":"api","timestamp":"2021-07-22 19:37:36,307"}
+{"message":"{'Received': {'file': <FileStorage: '3.png' ('image/png')>, 'task_id': '2cdabd5a-bf00-45fc-acab-57158ada2473'}}","level":"INFO","service":"api","timestamp":"2021-07-22 19:42:03,757"}
+{"message":"Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fa2995ff6a0>: Failed to establish a new connection: [Errno 111] Connection refused')': /images?location=","level":"WARNING","service":"api","timestamp":"2021-07-22 19:42:03,764"}
+{"message":"Retrying (Retry(total=3, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fa2995ff4c0>: Failed to establish a new connection: [Errno 111] Connection refused')': /images?location=","level":"WARNING","service":"api","timestamp":"2021-07-22 19:42:04,166"}
+{"message":"Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fa2995ff5e0>: Failed to establish a new connection: [Errno 111] Connection refused')': /images?location=","level":"WARNING","service":"api","timestamp":"2021-07-22 19:42:04,968"}
+{"message":"Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fa2995ff850>: Failed to establish a new connection: [Errno 111] Connection refused')': /images?location=","level":"WARNING","service":"api","timestamp":"2021-07-22 19:42:06,572"}
+{"message":"Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fa2995ffa30>: Failed to establish a new connection: [Errno 111] Connection refused')': /images?location=","level":"WARNING","service":"api","timestamp":"2021-07-22 19:42:09,776"}
+{"message":"172.18.0.1 - - [22/Jul/2021 19:42:09] "[35m[1mPOST / HTTP/1.1[0m" 500 -","level":"INFO","service":"api","timestamp":"2021-07-22 19:42:09,821"}
+{"message":"172.18.0.1 - - [22/Jul/2021 19:42:09] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -","level":"INFO","service":"api","timestamp":"2021-07-22 19:42:09,850"}
+{"message":"172.18.0.1 - - [22/Jul/2021 19:42:09] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -","level":"INFO","service":"api","timestamp":"2021-07-22 19:42:09,853"}
+{"message":"172.18.0.1 - - [22/Jul/2021 19:42:09] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -","level":"INFO","service":"api","timestamp":"2021-07-22 19:42:09,877"}
+{"message":"172.18.0.1 - - [22/Jul/2021 19:42:10] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -","level":"INFO","service":"api","timestamp":"2021-07-22 19:42:10,862"}
+{"message":" * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.","level":"WARNING","service":"api","timestamp":"2021-07-22 19:42:59,771"}
+{"message":" * Running on http://172.18.0.4:5000/ (Press CTRL+C to quit)","level":"INFO","service":"api","timestamp":"2021-07-22 19:42:59,772"}
+{"message":" * Restarting with stat","level":"INFO","service":"api","timestamp":"2021-07-22 19:42:59,773"}
+{"message":" * Debugger is active!","level":"WARNING","service":"api","timestamp":"2021-07-22 19:43:00,112"}
+{"message":" * Debugger PIN: 838-182-619","level":"INFO","service":"api","timestamp":"2021-07-22 19:43:00,113"}
+{"message":"{'Received': {'file': <FileStorage: '3.png' ('image/png')>, 'task_id': '7d84bde9-8e21-4900-91c9-c283c1386087'}}","level":"INFO","service":"api","timestamp":"2021-07-22 19:43:15,245"}
+{"message":"Задача 7d84bde9-8e21-4900-91c9-c283c1386087 отправлена в очередь","level":"INFO","service":"api","timestamp":"2021-07-22 19:43:15,248"}
+{"message":"Pika version 1.1.0 connecting to ('172.18.0.3', 5672)","level":"INFO","service":"api","timestamp":"2021-07-22 19:43:15,259"}
+{"message":"Socket connected: <socket.socket fd=11, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.18.0.4', 45794), raddr=('172.18.0.3', 5672)>","level":"INFO","service":"api","timestamp":"2021-07-22 19:43:15,262"}
+{"message":"Streaming transport linked up: (<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7f92a59a1b20>, _StreamingProtocolShim: <SelectConnection PROTOCOL transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7f92a59a1b20> params=<URLParameters host=queue port=5672 virtual_host=/ ssl=False>>).","level":"INFO","service":"api","timestamp":"2021-07-22 19:43:15,265"}
+{"message":"AMQPConnector - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7f92a59a1b20> params=<URLParameters host=queue port=5672 virtual_host=/ ssl=False>>","level":"INFO","service":"api","timestamp":"2021-07-22 19:43:15,273"}
+{"message":"AMQPConnectionWorkflow - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7f92a59a1b20> params=<URLParameters host=queue port=5672 virtual_host=/ ssl=False>>","level":"INFO","service":"api","timestamp":"2021-07-22 19:43:15,274"}
+{"message":"Connection workflow succeeded: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7f92a59a1b20> params=<URLParameters host=queue port=5672 virtual_host=/ ssl=False>>","level":"INFO","service":"api","timestamp":"2021-07-22 19:43:15,274"}
+{"message":"Created channel=1","level":"INFO","service":"api","timestamp":"2021-07-22 19:43:15,275"}
+{"message":"{'status': 'Finished'}","level":"INFO","service":"api","timestamp":"2021-07-22 19:43:15,291"}
+{"message":"172.18.0.1 - - [22/Jul/2021 19:43:15] "[35m[1mPOST / HTTP/1.1[0m" 500 -","level":"INFO","service":"api","timestamp":"2021-07-22 19:43:15,306"}
+{"message":"172.18.0.1 - - [22/Jul/2021 19:43:15] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -","level":"INFO","service":"api","timestamp":"2021-07-22 19:43:15,365"}
+{"message":"172.18.0.1 - - [22/Jul/2021 19:43:15] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -","level":"INFO","service":"api","timestamp":"2021-07-22 19:43:15,369"}
+{"message":"172.18.0.1 - - [22/Jul/2021 19:43:15] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -","level":"INFO","service":"api","timestamp":"2021-07-22 19:43:15,389"}
+{"message":"172.18.0.1 - - [22/Jul/2021 19:43:15] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -","level":"INFO","service":"api","timestamp":"2021-07-22 19:43:15,425"}
+{"message":" * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.","level":"WARNING","service":"api","timestamp":"2021-07-22 20:33:11,493"}
+{"message":" * Running on http://172.18.0.4:5000/ (Press CTRL+C to quit)","level":"INFO","service":"api","timestamp":"2021-07-22 20:33:11,517"}
+{"message":" * Restarting with stat","level":"INFO","service":"api","timestamp":"2021-07-22 20:33:11,520"}
+{"message":" * Debugger is active!","level":"WARNING","service":"api","timestamp":"2021-07-22 20:33:11,845"}
+{"message":" * Debugger PIN: 543-631-077","level":"INFO","service":"api","timestamp":"2021-07-22 20:33:11,847"}
+{"message":" * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.","level":"WARNING","service":"api","timestamp":"2021-07-22 20:42:52,535"}
+{"message":" * Running on http://172.18.0.4:5000/ (Press CTRL+C to quit)","level":"INFO","service":"api","timestamp":"2021-07-22 20:42:52,535"}
+{"message":" * Restarting with stat","level":"INFO","service":"api","timestamp":"2021-07-22 20:42:52,536"}
+{"message":" * Debugger is active!","level":"WARNING","service":"api","timestamp":"2021-07-22 20:42:52,921"}
+{"message":" * Debugger PIN: 870-361-196","level":"INFO","service":"api","timestamp":"2021-07-22 20:42:52,922"}
+{"message":" * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.","level":"WARNING","service":"api","timestamp":"2021-07-22 20:45:53,891"}
+{"message":" * Running on http://172.19.0.4:5000/ (Press CTRL+C to quit)","level":"INFO","service":"api","timestamp":"2021-07-22 20:45:53,900"}
+{"message":" * Restarting with stat","level":"INFO","service":"api","timestamp":"2021-07-22 20:45:53,901"}
+{"message":" * Debugger is active!","level":"WARNING","service":"api","timestamp":"2021-07-22 20:45:54,293"}
+{"message":" * Debugger PIN: 277-031-927","level":"INFO","service":"api","timestamp":"2021-07-22 20:45:54,294"}
+{"message":" * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.","level":"WARNING","service":"api","timestamp":"2021-07-22 20:49:17,976"}
+{"message":" * Running on http://172.19.0.4:5000/ (Press CTRL+C to quit)","level":"INFO","service":"api","timestamp":"2021-07-22 20:49:17,976"}
+{"message":" * Restarting with stat","level":"INFO","service":"api","timestamp":"2021-07-22 20:49:17,977"}
+{"message":" * Debugger is active!","level":"WARNING","service":"api","timestamp":"2021-07-22 20:49:18,297"}
+{"message":" * Debugger PIN: 234-926-217","level":"INFO","service":"api","timestamp":"2021-07-22 20:49:18,298"}
+{"message":" * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.","level":"WARNING","service":"api","timestamp":"2021-07-22 20:49:24,500"}
+{"message":" * Running on http://172.19.0.4:5000/ (Press CTRL+C to quit)","level":"INFO","service":"api","timestamp":"2021-07-22 20:49:24,501"}
+{"message":" * Restarting with stat","level":"INFO","service":"api","timestamp":"2021-07-22 20:49:24,503"}
+{"message":" * Debugger is active!","level":"WARNING","service":"api","timestamp":"2021-07-22 20:49:25,014"}
+{"message":" * Debugger PIN: 234-926-217","level":"INFO","service":"api","timestamp":"2021-07-22 20:49:25,015"}
+{"message":"{'Received': {'file': <FileStorage: '3.png' ('image/png')>, 'task_id': 'b55c1643-dad7-49d3-9e26-a15ecd5f28a9'}}","level":"INFO","service":"api","timestamp":"2021-07-22 20:50:05,724"}
+{"message":"Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f9ae84513d0>: Failed to establish a new connection: [Errno 111] Connection refused')': /images?location=","level":"WARNING","service":"api","timestamp":"2021-07-22 20:50:05,733"}
+{"message":"Retrying (Retry(total=3, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f9ae84515b0>: Failed to establish a new connection: [Errno 111] Connection refused')': /images?location=","level":"WARNING","service":"api","timestamp":"2021-07-22 20:50:06,135"}
+{"message":"Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f9ae8451790>: Failed to establish a new connection: [Errno 111] Connection refused')': /images?location=","level":"WARNING","service":"api","timestamp":"2021-07-22 20:50:06,937"}
+{"message":"Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f9ae8451910>: Failed to establish a new connection: [Errno 111] Connection refused')': /images?location=","level":"WARNING","service":"api","timestamp":"2021-07-22 20:50:08,540"}
+{"message":"Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f9ae8451b80>: Failed to establish a new connection: [Errno 111] Connection refused')': /images?location=","level":"WARNING","service":"api","timestamp":"2021-07-22 20:50:11,744"}
+{"message":"172.19.0.1 - - [22/Jul/2021 20:50:11] "[35m[1mPOST / HTTP/1.1[0m" 500 -","level":"INFO","service":"api","timestamp":"2021-07-22 20:50:11,801"}
+{"message":"172.19.0.1 - - [22/Jul/2021 20:50:11] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -","level":"INFO","service":"api","timestamp":"2021-07-22 20:50:11,849"}
+{"message":"172.19.0.1 - - [22/Jul/2021 20:50:11] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -","level":"INFO","service":"api","timestamp":"2021-07-22 20:50:11,850"}
+{"message":"172.19.0.1 - - [22/Jul/2021 20:50:11] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -","level":"INFO","service":"api","timestamp":"2021-07-22 20:50:11,906"}
+{"message":"172.19.0.1 - - [22/Jul/2021 20:50:12] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -","level":"INFO","service":"api","timestamp":"2021-07-22 20:50:12,155"}
+{"message":" * Detected change in '/home/app/main.py', reloading","level":"INFO","service":"api","timestamp":"2021-07-22 20:51:28,268"}
+{"message":" * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.","level":"WARNING","service":"api","timestamp":"2021-07-22 20:51:28,720"}
+{"message":" * Running on http://172.19.0.4:5000/ (Press CTRL+C to quit)","level":"INFO","service":"api","timestamp":"2021-07-22 20:51:28,720"}
+{"message":" * Restarting with stat","level":"INFO","service":"api","timestamp":"2021-07-22 20:51:28,721"}
+{"message":" * Debugger is active!","level":"WARNING","service":"api","timestamp":"2021-07-22 20:51:29,051"}
+{"message":" * Debugger PIN: 234-926-217","level":"INFO","service":"api","timestamp":"2021-07-22 20:51:29,052"}
+{"message":" * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.","level":"WARNING","service":"api","timestamp":"2021-07-22 20:51:31,940"}
+{"message":" * Running on http://172.19.0.4:5000/ (Press CTRL+C to quit)","level":"INFO","service":"api","timestamp":"2021-07-22 20:51:31,941"}
+{"message":" * Restarting with stat","level":"INFO","service":"api","timestamp":"2021-07-22 20:51:31,942"}
+{"message":" * Debugger is active!","level":"WARNING","service":"api","timestamp":"2021-07-22 20:51:32,453"}
+{"message":" * Debugger PIN: 234-926-217","level":"INFO","service":"api","timestamp":"2021-07-22 20:51:32,455"}
+{"message":"{'Received': {'file': <FileStorage: '3.png' ('image/png')>, 'task_id': 'dbd64721-c918-48ce-b637-09f0e192c92f'}}","level":"INFO","service":"api","timestamp":"2021-07-22 20:51:36,857"}
+{"message":"Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3810356400>: Failed to establish a new connection: [Errno 111] Connection refused')': /images?location=","level":"WARNING","service":"api","timestamp":"2021-07-22 20:51:36,867"}
+{"message":"Retrying (Retry(total=3, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f38103565e0>: Failed to establish a new connection: [Errno 111] Connection refused')': /images?location=","level":"WARNING","service":"api","timestamp":"2021-07-22 20:51:37,271"}
+{"message":"Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f38103567c0>: Failed to establish a new connection: [Errno 111] Connection refused')': /images?location=","level":"WARNING","service":"api","timestamp":"2021-07-22 20:51:38,076"}
+{"message":"Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3810356940>: Failed to establish a new connection: [Errno 111] Connection refused')': /images?location=","level":"WARNING","service":"api","timestamp":"2021-07-22 20:51:39,679"}
+{"message":"Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3810356bb0>: Failed to establish a new connection: [Errno 111] Connection refused')': /images?location=","level":"WARNING","service":"api","timestamp":"2021-07-22 20:51:42,884"}
+{"message":"172.19.0.1 - - [22/Jul/2021 20:51:42] "[35m[1mPOST / HTTP/1.1[0m" 500 -","level":"INFO","service":"api","timestamp":"2021-07-22 20:51:42,931"}
+{"message":"172.19.0.1 - - [22/Jul/2021 20:51:42] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -","level":"INFO","service":"api","timestamp":"2021-07-22 20:51:42,985"}
+{"message":"172.19.0.1 - - [22/Jul/2021 20:51:42] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -","level":"INFO","service":"api","timestamp":"2021-07-22 20:51:42,986"}
+{"message":"172.19.0.1 - - [22/Jul/2021 20:51:43] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -","level":"INFO","service":"api","timestamp":"2021-07-22 20:51:43,010"}
+{"message":"172.19.0.1 - - [22/Jul/2021 20:51:43] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -","level":"INFO","service":"api","timestamp":"2021-07-22 20:51:43,081"}
+{"message":" * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.","level":"WARNING","service":"api","timestamp":"2021-07-22 20:53:12,157"}
+{"message":" * Running on http://172.19.0.4:5000/ (Press CTRL+C to quit)","level":"INFO","service":"api","timestamp":"2021-07-22 20:53:12,158"}
+{"message":" * Restarting with stat","level":"INFO","service":"api","timestamp":"2021-07-22 20:53:12,159"}
+{"message":" * Debugger is active!","level":"WARNING","service":"api","timestamp":"2021-07-22 20:53:12,609"}
+{"message":" * Debugger PIN: 234-926-217","level":"INFO","service":"api","timestamp":"2021-07-22 20:53:12,611"}
+{"message":"{'Received': {'file': <FileStorage: '3.png' ('image/png')>, 'task_id': '840d10a5-ee27-4fcb-bdf0-1a5a02b2ee02'}}","level":"INFO","service":"api","timestamp":"2021-07-22 20:53:16,617"}
+{"message":"Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1129)'))': /images?location=","level":"WARNING","service":"api","timestamp":"2021-07-22 20:53:16,654"}
+{"message":"Retrying (Retry(total=3, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1129)'))': /images?location=","level":"WARNING","service":"api","timestamp":"2021-07-22 20:53:17,070"}
+{"message":"Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1129)'))': /images?location=","level":"WARNING","service":"api","timestamp":"2021-07-22 20:53:17,894"}
+{"message":"Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1129)'))': /images?location=","level":"WARNING","service":"api","timestamp":"2021-07-22 20:53:19,518"}
+{"message":"Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1129)'))': /images?location=","level":"WARNING","service":"api","timestamp":"2021-07-22 20:53:22,740"}
+{"message":"172.19.0.1 - - [22/Jul/2021 20:53:22] "[35m[1mPOST / HTTP/1.1[0m" 500 -","level":"INFO","service":"api","timestamp":"2021-07-22 20:53:22,813"}
+{"message":"172.19.0.1 - - [22/Jul/2021 20:53:22] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -","level":"INFO","service":"api","timestamp":"2021-07-22 20:53:22,846"}
+{"message":"172.19.0.1 - - [22/Jul/2021 20:53:22] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -","level":"INFO","service":"api","timestamp":"2021-07-22 20:53:22,852"}
+{"message":"172.19.0.1 - - [22/Jul/2021 20:53:22] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -","level":"INFO","service":"api","timestamp":"2021-07-22 20:53:22,895"}
+{"message":"172.19.0.1 - - [22/Jul/2021 20:53:23] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -","level":"INFO","service":"api","timestamp":"2021-07-22 20:53:23,021"}
+{"message":" * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.","level":"WARNING","service":"api","timestamp":"2021-07-22 20:53:51,414"}
+{"message":" * Running on http://172.19.0.4:5000/ (Press CTRL+C to quit)","level":"INFO","service":"api","timestamp":"2021-07-22 20:53:51,414"}
+{"message":" * Restarting with stat","level":"INFO","service":"api","timestamp":"2021-07-22 20:53:51,415"}
+{"message":" * Debugger is active!","level":"WARNING","service":"api","timestamp":"2021-07-22 20:53:51,751"}
+{"message":" * Debugger PIN: 234-926-217","level":"INFO","service":"api","timestamp":"2021-07-22 20:53:51,752"}
+{"message":" * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.","level":"WARNING","service":"api","timestamp":"2021-07-22 20:56:05,168"}
+{"message":" * Running on http://172.19.0.4:5000/ (Press CTRL+C to quit)","level":"INFO","service":"api","timestamp":"2021-07-22 20:56:05,168"}
+{"message":" * Restarting with stat","level":"INFO","service":"api","timestamp":"2021-07-22 20:56:05,169"}
+{"message":" * Debugger is active!","level":"WARNING","service":"api","timestamp":"2021-07-22 20:56:05,505"}
+{"message":" * Debugger PIN: 234-926-217","level":"INFO","service":"api","timestamp":"2021-07-22 20:56:05,506"}
+{"message":" * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.","level":"WARNING","service":"api","timestamp":"2021-07-22 20:56:07,531"}
+{"message":" * Running on http://172.19.0.4:5000/ (Press CTRL+C to quit)","level":"INFO","service":"api","timestamp":"2021-07-22 20:56:07,532"}
+{"message":" * Restarting with stat","level":"INFO","service":"api","timestamp":"2021-07-22 20:56:07,533"}
+{"message":" * Debugger is active!","level":"WARNING","service":"api","timestamp":"2021-07-22 20:56:08,104"}
+{"message":" * Debugger PIN: 234-926-217","level":"INFO","service":"api","timestamp":"2021-07-22 20:56:08,106"}
+{"message":"{'Received': {'file': <FileStorage: '3.png' ('image/png')>, 'task_id': '014e0fa2-9e12-4845-8795-469ef01538a7'}}","level":"INFO","service":"api","timestamp":"2021-07-22 20:56:13,634"}
+{"message":"{'status': 'put to storage', 'file': <FileStorage: '3.png' ('image/png')>, 'task_id': '014e0fa2-9e12-4845-8795-469ef01538a7'}","level":"INFO","service":"api","timestamp":"2021-07-22 20:56:13,635"}
+{"message":"Задача 014e0fa2-9e12-4845-8795-469ef01538a7 отправлена в очередь","level":"INFO","service":"api","timestamp":"2021-07-22 20:56:13,695"}
+{"message":"Pika version 1.1.0 connecting to ('172.19.0.2', 5672)","level":"INFO","service":"api","timestamp":"2021-07-22 20:56:13,699"}
+{"message":"Socket connected: <socket.socket fd=14, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.19.0.4', 46414), raddr=('172.19.0.2', 5672)>","level":"INFO","service":"api","timestamp":"2021-07-22 20:56:13,700"}
+{"message":"Streaming transport linked up: (<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7f54f8531dc0>, _StreamingProtocolShim: <SelectConnection PROTOCOL transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7f54f8531dc0> params=<URLParameters host=queue port=5672 virtual_host=/ ssl=False>>).","level":"INFO","service":"api","timestamp":"2021-07-22 20:56:13,702"}
+{"message":"AMQPConnector - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7f54f8531dc0> params=<URLParameters host=queue port=5672 virtual_host=/ ssl=False>>","level":"INFO","service":"api","timestamp":"2021-07-22 20:56:13,713"}
+{"message":"AMQPConnectionWorkflow - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7f54f8531dc0> params=<URLParameters host=queue port=5672 virtual_host=/ ssl=False>>","level":"INFO","service":"api","timestamp":"2021-07-22 20:56:13,715"}
+{"message":"Connection workflow succeeded: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7f54f8531dc0> params=<URLParameters host=queue port=5672 virtual_host=/ ssl=False>>","level":"INFO","service":"api","timestamp":"2021-07-22 20:56:13,716"}
+{"message":"Created channel=1","level":"INFO","service":"api","timestamp":"2021-07-22 20:56:13,717"}
+{"message":"{'status': 'Finished'}","level":"INFO","service":"api","timestamp":"2021-07-22 20:56:13,732"}
+{"message":"172.19.0.1 - - [22/Jul/2021 20:56:13] "POST / HTTP/1.1" 200 -","level":"INFO","service":"api","timestamp":"2021-07-22 20:56:13,740"}
+{"message":" * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.","level":"WARNING","service":"api","timestamp":"2021-07-22 20:57:24,048"}
+{"message":" * Running on http://172.19.0.4:5000/ (Press CTRL+C to quit)","level":"INFO","service":"api","timestamp":"2021-07-22 20:57:24,048"}
+{"message":" * Restarting with stat","level":"INFO","service":"api","timestamp":"2021-07-22 20:57:24,049"}
+{"message":" * Debugger is active!","level":"WARNING","service":"api","timestamp":"2021-07-22 20:57:24,364"}
+{"message":" * Debugger PIN: 234-926-217","level":"INFO","service":"api","timestamp":"2021-07-22 20:57:24,364"}
+{"message":" * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.","level":"WARNING","service":"api","timestamp":"2021-07-22 20:58:01,758"}
+{"message":" * Running on http://172.19.0.4:5000/ (Press CTRL+C to quit)","level":"INFO","service":"api","timestamp":"2021-07-22 20:58:01,758"}
+{"message":" * Restarting with stat","level":"INFO","service":"api","timestamp":"2021-07-22 20:58:01,759"}
+{"message":" * Debugger is active!","level":"WARNING","service":"api","timestamp":"2021-07-22 20:58:02,080"}
+{"message":" * Debugger PIN: 234-926-217","level":"INFO","service":"api","timestamp":"2021-07-22 20:58:02,080"}
+{"message":"started","level":"INFO","service":"api","timestamp":"2021-07-22 21:05:36,673"}
+{"message":"Pika version 1.1.0 connecting to ('172.19.0.2', 5672)","level":"INFO","service":"api","timestamp":"2021-07-22 21:05:36,677"}
+{"message":"Socket connected: <socket.socket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.19.0.5', 39188), raddr=('172.19.0.2', 5672)>","level":"INFO","service":"api","timestamp":"2021-07-22 21:05:36,678"}
+{"message":"Streaming transport linked up: (<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7f104ef77100>, _StreamingProtocolShim: <SelectConnection PROTOCOL transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7f104ef77100> params=<ConnectionParameters host=queue port=5672 virtual_host=/ ssl=False>>).","level":"INFO","service":"api","timestamp":"2021-07-22 21:05:36,678"}
+{"message":"on_connection_open","level":"INFO","service":"api","timestamp":"2021-07-22 21:05:36,682"}
+{"message":"AMQPConnector - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7f104ef77100> params=<ConnectionParameters host=queue port=5672 virtual_host=/ ssl=False>>","level":"INFO","service":"api","timestamp":"2021-07-22 21:05:36,682"}
+{"message":"AMQPConnectionWorkflow - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7f104ef77100> params=<ConnectionParameters host=queue port=5672 virtual_host=/ ssl=False>>","level":"INFO","service":"api","timestamp":"2021-07-22 21:05:36,682"}
+{"message":"on_channel_open","level":"INFO","service":"api","timestamp":"2021-07-22 21:05:36,684"}
+{"message":" * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.","level":"WARNING","service":"api","timestamp":"2021-07-22 21:05:36,987"}
+{"message":" * Running on http://172.19.0.4:5000/ (Press CTRL+C to quit)","level":"INFO","service":"api","timestamp":"2021-07-22 21:05:36,988"}
+{"message":" * Restarting with stat","level":"INFO","service":"api","timestamp":"2021-07-22 21:05:36,989"}
+{"message":" * Debugger is active!","level":"WARNING","service":"api","timestamp":"2021-07-22 21:05:37,384"}
+{"message":" * Debugger PIN: 134-305-750","level":"INFO","service":"api","timestamp":"2021-07-22 21:05:37,386"}
+{"message":"started","level":"INFO","service":"api","timestamp":"2021-07-22 21:08:45,897"}
+{"message":"Pika version 1.1.0 connecting to ('172.19.0.3', 5672)","level":"INFO","service":"api","timestamp":"2021-07-22 21:08:45,902"}
+{"message":"Socket connected: <socket.socket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.19.0.5', 59536), raddr=('172.19.0.3', 5672)>","level":"INFO","service":"api","timestamp":"2021-07-22 21:08:45,903"}
+{"message":"Streaming transport linked up: (<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7f385cf45910>, _StreamingProtocolShim: <SelectConnection PROTOCOL transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7f385cf45910> params=<ConnectionParameters host=queue port=5672 virtual_host=/ ssl=False>>).","level":"INFO","service":"api","timestamp":"2021-07-22 21:08:45,904"}
+{"message":"on_connection_open","level":"INFO","service":"api","timestamp":"2021-07-22 21:08:45,906"}
+{"message":"AMQPConnector - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7f385cf45910> params=<ConnectionParameters host=queue port=5672 virtual_host=/ ssl=False>>","level":"INFO","service":"api","timestamp":"2021-07-22 21:08:45,907"}
+{"message":"AMQPConnectionWorkflow - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7f385cf45910> params=<ConnectionParameters host=queue port=5672 virtual_host=/ ssl=False>>","level":"INFO","service":"api","timestamp":"2021-07-22 21:08:45,907"}
+{"message":"on_channel_open","level":"INFO","service":"api","timestamp":"2021-07-22 21:08:45,908"}
+{"message":" * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.","level":"WARNING","service":"api","timestamp":"2021-07-22 21:08:46,003"}
+{"message":" * Running on http://172.19.0.4:5000/ (Press CTRL+C to quit)","level":"INFO","service":"api","timestamp":"2021-07-22 21:08:46,003"}
+{"message":" * Restarting with stat","level":"INFO","service":"api","timestamp":"2021-07-22 21:08:46,004"}
+{"message":" * Debugger is active!","level":"WARNING","service":"api","timestamp":"2021-07-22 21:08:46,315"}
+{"message":" * Debugger PIN: 134-305-750","level":"INFO","service":"api","timestamp":"2021-07-22 21:08:46,316"}
+{"message":"started","level":"INFO","service":"api","timestamp":"2021-07-22 21:11:33,746"}
+{"message":"Pika version 1.1.0 connecting to ('172.21.0.2', 5672)","level":"INFO","service":"api","timestamp":"2021-07-22 21:11:33,769"}
+{"message":"Socket connected: <socket.socket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.21.0.5', 36826), raddr=('172.21.0.2', 5672)>","level":"INFO","service":"api","timestamp":"2021-07-22 21:11:33,770"}
+{"message":"Streaming transport linked up: (<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7f45efdfa910>, _StreamingProtocolShim: <SelectConnection PROTOCOL transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7f45efdfa910> params=<ConnectionParameters host=queue port=5672 virtual_host=/ ssl=False>>).","level":"INFO","service":"api","timestamp":"2021-07-22 21:11:33,770"}
+{"message":"on_connection_open","level":"INFO","service":"api","timestamp":"2021-07-22 21:11:33,774"}
+{"message":"AMQPConnector - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7f45efdfa910> params=<ConnectionParameters host=queue port=5672 virtual_host=/ ssl=False>>","level":"INFO","service":"api","timestamp":"2021-07-22 21:11:33,774"}
+{"message":"AMQPConnectionWorkflow - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7f45efdfa910> params=<ConnectionParameters host=queue port=5672 virtual_host=/ ssl=False>>","level":"INFO","service":"api","timestamp":"2021-07-22 21:11:33,774"}
+{"message":"on_channel_open","level":"INFO","service":"api","timestamp":"2021-07-22 21:11:33,775"}
+{"message":" * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.","level":"WARNING","service":"api","timestamp":"2021-07-22 21:11:34,026"}
+{"message":" * Running on http://172.21.0.6:5000/ (Press CTRL+C to quit)","level":"INFO","service":"api","timestamp":"2021-07-22 21:11:34,026"}
+{"message":" * Restarting with stat","level":"INFO","service":"api","timestamp":"2021-07-22 21:11:34,027"}
+{"message":" * Debugger is active!","level":"WARNING","service":"api","timestamp":"2021-07-22 21:11:34,388"}
+{"message":" * Debugger PIN: 190-005-554","level":"INFO","service":"api","timestamp":"2021-07-22 21:11:34,389"}
+{"message":"172.21.0.1 - - [22/Jul/2021 21:12:04] "GET / HTTP/1.1" 200 -","level":"INFO","service":"api","timestamp":"2021-07-22 21:12:04,996"}
+{"message":"{'Received': {'file': <FileStorage: '3.png' ('image/png')>, 'task_id': '3851e11f-7f02-4a87-9972-a23811c250ea'}}","level":"INFO","service":"api","timestamp":"2021-07-22 21:12:05,910"}
+{"message":"{'put to storage': <FileStorage: '3.png' ('image/png')>, 'task_id': '3851e11f-7f02-4a87-9972-a23811c250ea'}","level":"INFO","service":"api","timestamp":"2021-07-22 21:12:05,918"}
+{"message":"Задача 3851e11f-7f02-4a87-9972-a23811c250ea отправлена в очередь","level":"INFO","service":"api","timestamp":"2021-07-22 21:12:06,011"}
+{"message":"Pika version 1.1.0 connecting to ('172.21.0.2', 5672)","level":"INFO","service":"api","timestamp":"2021-07-22 21:12:06,016"}
+{"message":"Socket connected: <socket.socket fd=14, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.21.0.6', 58490), raddr=('172.21.0.2', 5672)>","level":"INFO","service":"api","timestamp":"2021-07-22 21:12:06,018"}
+{"message":"Streaming transport linked up: (<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7fd008900f10>, _StreamingProtocolShim: <SelectConnection PROTOCOL transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7fd008900f10> params=<URLParameters host=queue port=5672 virtual_host=/ ssl=False>>).","level":"INFO","service":"api","timestamp":"2021-07-22 21:12:06,020"}
+{"message":"AMQPConnector - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7fd008900f10> params=<URLParameters host=queue port=5672 virtual_host=/ ssl=False>>","level":"INFO","service":"api","timestamp":"2021-07-22 21:12:06,031"}
+{"message":"AMQPConnectionWorkflow - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7fd008900f10> params=<URLParameters host=queue port=5672 virtual_host=/ ssl=False>>","level":"INFO","service":"api","timestamp":"2021-07-22 21:12:06,033"}
+{"message":"Connection workflow succeeded: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7fd008900f10> params=<URLParameters host=queue port=5672 virtual_host=/ ssl=False>>","level":"INFO","service":"api","timestamp":"2021-07-22 21:12:06,034"}
+{"message":"Created channel=1","level":"INFO","service":"api","timestamp":"2021-07-22 21:12:06,035"}
+{"message":"{'status': 'Finished'}","level":"INFO","service":"api","timestamp":"2021-07-22 21:12:06,046"}
+{"message":"channel_callback","level":"INFO","service":"api","timestamp":"2021-07-22 21:12:06,047"}
+{"message":"172.21.0.1 - - [22/Jul/2021 21:12:06] "POST / HTTP/1.1" 200 -","level":"INFO","service":"api","timestamp":"2021-07-22 21:12:06,048"}
+{"message":"begin processing","level":"INFO","service":"api","timestamp":"2021-07-22 21:12:06,048"}
+{"message":"started","level":"INFO","service":"api","timestamp":"2021-07-22 21:13:31,980"}
+{"message":"Pika version 1.1.0 connecting to ('172.21.0.4', 5672)","level":"INFO","service":"api","timestamp":"2021-07-22 21:13:31,988"}
+{"message":"Socket connected: <socket.socket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.21.0.7', 40652), raddr=('172.21.0.4', 5672)>","level":"INFO","service":"api","timestamp":"2021-07-22 21:13:31,992"}
+{"message":"Streaming transport linked up: (<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7f132b90e910>, _StreamingProtocolShim: <SelectConnection PROTOCOL transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7f132b90e910> params=<ConnectionParameters host=queue port=5672 virtual_host=/ ssl=False>>).","level":"INFO","service":"api","timestamp":"2021-07-22 21:13:31,993"}
+{"message":"on_connection_open","level":"INFO","service":"api","timestamp":"2021-07-22 21:13:31,997"}
+{"message":"AMQPConnector - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7f132b90e910> params=<ConnectionParameters host=queue port=5672 virtual_host=/ ssl=False>>","level":"INFO","service":"api","timestamp":"2021-07-22 21:13:31,997"}
+{"message":"AMQPConnectionWorkflow - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7f132b90e910> params=<ConnectionParameters host=queue port=5672 virtual_host=/ ssl=False>>","level":"INFO","service":"api","timestamp":"2021-07-22 21:13:31,998"}
+{"message":"on_channel_open","level":"INFO","service":"api","timestamp":"2021-07-22 21:13:31,999"}
+{"message":" * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.","level":"WARNING","service":"api","timestamp":"2021-07-22 21:13:32,211"}
+{"message":" * Running on http://172.21.0.6:5000/ (Press CTRL+C to quit)","level":"INFO","service":"api","timestamp":"2021-07-22 21:13:32,211"}
+{"message":" * Restarting with stat","level":"INFO","service":"api","timestamp":"2021-07-22 21:13:32,212"}
+{"message":" * Debugger is active!","level":"WARNING","service":"api","timestamp":"2021-07-22 21:13:32,531"}
+{"message":" * Debugger PIN: 190-005-554","level":"INFO","service":"api","timestamp":"2021-07-22 21:13:32,532"}
+{"message":"started","level":"INFO","service":"api","timestamp":"2021-07-22 21:15:22,624"}
+{"message":"Pika version 1.1.0 connecting to ('172.21.0.4', 5672)","level":"INFO","service":"api","timestamp":"2021-07-22 21:15:22,658"}
+{"message":"Socket connected: <socket.socket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.21.0.7', 40768), raddr=('172.21.0.4', 5672)>","level":"INFO","service":"api","timestamp":"2021-07-22 21:15:22,658"}
+{"message":"Streaming transport linked up: (<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7fe9d72c1910>, _StreamingProtocolShim: <SelectConnection PROTOCOL transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7fe9d72c1910> params=<ConnectionParameters host=queue port=5672 virtual_host=/ ssl=False>>).","level":"INFO","service":"api","timestamp":"2021-07-22 21:15:22,659"}
+{"message":"on_connection_open","level":"INFO","service":"api","timestamp":"2021-07-22 21:15:22,662"}
+{"message":"AMQPConnector - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7fe9d72c1910> params=<ConnectionParameters host=queue port=5672 virtual_host=/ ssl=False>>","level":"INFO","service":"api","timestamp":"2021-07-22 21:15:22,662"}
+{"message":"AMQPConnectionWorkflow - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7fe9d72c1910> params=<ConnectionParameters host=queue port=5672 virtual_host=/ ssl=False>>","level":"INFO","service":"api","timestamp":"2021-07-22 21:15:22,662"}
+{"message":"on_channel_open","level":"INFO","service":"api","timestamp":"2021-07-22 21:15:22,664"}
+{"message":"started","level":"INFO","service":"api","timestamp":"2021-07-22 21:15:29,051"}
+{"message":"Pika version 1.1.0 connecting to ('172.21.0.4', 5672)","level":"INFO","service":"api","timestamp":"2021-07-22 21:15:29,059"}
+{"message":"Socket connected: <socket.socket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.21.0.7', 40776), raddr=('172.21.0.4', 5672)>","level":"INFO","service":"api","timestamp":"2021-07-22 21:15:29,059"}
+{"message":"Streaming transport linked up: (<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7f5a86dac940>, _StreamingProtocolShim: <SelectConnection PROTOCOL transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7f5a86dac940> params=<ConnectionParameters host=queue port=5672 virtual_host=/ ssl=False>>).","level":"INFO","service":"api","timestamp":"2021-07-22 21:15:29,060"}
+{"message":"on_connection_open","level":"INFO","service":"api","timestamp":"2021-07-22 21:15:29,066"}
+{"message":"AMQPConnector - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7f5a86dac940> params=<ConnectionParameters host=queue port=5672 virtual_host=/ ssl=False>>","level":"INFO","service":"api","timestamp":"2021-07-22 21:15:29,067"}
+{"message":"AMQPConnectionWorkflow - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7f5a86dac940> params=<ConnectionParameters host=queue port=5672 virtual_host=/ ssl=False>>","level":"INFO","service":"api","timestamp":"2021-07-22 21:15:29,067"}
+{"message":"on_channel_open","level":"INFO","service":"api","timestamp":"2021-07-22 21:15:29,069"}
+{"message":"started","level":"INFO","service":"api","timestamp":"2021-07-22 21:15:42,215"}
+{"message":"Pika version 1.1.0 connecting to ('172.21.0.4', 5672)","level":"INFO","service":"api","timestamp":"2021-07-22 21:15:42,219"}
+{"message":"Socket connected: <socket.socket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.21.0.7', 40792), raddr=('172.21.0.4', 5672)>","level":"INFO","service":"api","timestamp":"2021-07-22 21:15:42,220"}
+{"message":"Streaming transport linked up: (<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7f957c873940>, _StreamingProtocolShim: <SelectConnection PROTOCOL transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7f957c873940> params=<ConnectionParameters host=queue port=5672 virtual_host=/ ssl=False>>).","level":"INFO","service":"api","timestamp":"2021-07-22 21:15:42,221"}
+{"message":"on_connection_open","level":"INFO","service":"api","timestamp":"2021-07-22 21:15:42,223"}
+{"message":"AMQPConnector - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7f957c873940> params=<ConnectionParameters host=queue port=5672 virtual_host=/ ssl=False>>","level":"INFO","service":"api","timestamp":"2021-07-22 21:15:42,224"}
+{"message":"AMQPConnectionWorkflow - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7f957c873940> params=<ConnectionParameters host=queue port=5672 virtual_host=/ ssl=False>>","level":"INFO","service":"api","timestamp":"2021-07-22 21:15:42,224"}
+{"message":"on_channel_open","level":"INFO","service":"api","timestamp":"2021-07-22 21:15:42,225"}
+{"message":"started","level":"INFO","service":"api","timestamp":"2021-07-22 21:15:52,525"}
+{"message":"Pika version 1.1.0 connecting to ('172.21.0.4', 5672)","level":"INFO","service":"api","timestamp":"2021-07-22 21:15:52,529"}
+{"message":"Socket connected: <socket.socket fd=8, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.21.0.7', 40802), raddr=('172.21.0.4', 5672)>","level":"INFO","service":"api","timestamp":"2021-07-22 21:15:52,530"}
+{"message":"Streaming transport linked up: (<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7f949c6dc940>, _StreamingProtocolShim: <SelectConnection PROTOCOL transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7f949c6dc940> params=<ConnectionParameters host=queue port=5672 virtual_host=/ ssl=False>>).","level":"INFO","service":"api","timestamp":"2021-07-22 21:15:52,531"}
+{"message":"on_connection_open","level":"INFO","service":"api","timestamp":"2021-07-22 21:15:52,533"}
+{"message":"AMQPConnector - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7f949c6dc940> params=<ConnectionParameters host=queue port=5672 virtual_host=/ ssl=False>>","level":"INFO","service":"api","timestamp":"2021-07-22 21:15:52,534"}
+{"message":"AMQPConnectionWorkflow - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7f949c6dc940> params=<ConnectionParameters host=queue port=5672 virtual_host=/ ssl=False>>","level":"INFO","service":"api","timestamp":"2021-07-22 21:15:52,534"}
+{"message":"on_channel_open","level":"INFO","service":"api","timestamp":"2021-07-22 21:15:52,535"}
+{"message":"{'Received': {'file': <FileStorage: '' ('application/octet-stream')>, 'task_id': '7b5fd35d-2a25-4039-b24a-d078a81e83f8'}}","level":"INFO","service":"api","timestamp":"2021-07-22 21:15:57,069"}
+{"message":"{'status': 'Finished'}","level":"INFO","service":"api","timestamp":"2021-07-22 21:15:57,071"}
+{"message":"172.21.0.1 - - [22/Jul/2021 21:15:57] "POST / HTTP/1.1" 200 -","level":"INFO","service":"api","timestamp":"2021-07-22 21:15:57,084"}
+{"message":"{'Received': {'file': <FileStorage: '5.png' ('image/png')>, 'task_id': '446d3737-1b9b-49eb-a3a5-5deab8b2c41a'}}","level":"INFO","service":"api","timestamp":"2021-07-22 21:15:59,707"}
+{"message":"{'put to storage': <FileStorage: '5.png' ('image/png')>, 'task_id': '446d3737-1b9b-49eb-a3a5-5deab8b2c41a'}","level":"INFO","service":"api","timestamp":"2021-07-22 21:15:59,708"}
+{"message":"Задача 446d3737-1b9b-49eb-a3a5-5deab8b2c41a отправлена в очередь","level":"INFO","service":"api","timestamp":"2021-07-22 21:15:59,776"}
+{"message":"Pika version 1.1.0 connecting to ('172.21.0.4', 5672)","level":"INFO","service":"api","timestamp":"2021-07-22 21:15:59,781"}
+{"message":"Socket connected: <socket.socket fd=14, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('172.21.0.6', 34570), raddr=('172.21.0.4', 5672)>","level":"INFO","service":"api","timestamp":"2021-07-22 21:15:59,784"}
+{"message":"Streaming transport linked up: (<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7f0d23211610>, _StreamingProtocolShim: <SelectConnection PROTOCOL transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7f0d23211610> params=<URLParameters host=queue port=5672 virtual_host=/ ssl=False>>).","level":"INFO","service":"api","timestamp":"2021-07-22 21:15:59,786"}
+{"message":"AMQPConnector - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7f0d23211610> params=<URLParameters host=queue port=5672 virtual_host=/ ssl=False>>","level":"INFO","service":"api","timestamp":"2021-07-22 21:15:59,795"}
+{"message":"AMQPConnectionWorkflow - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7f0d23211610> params=<URLParameters host=queue port=5672 virtual_host=/ ssl=False>>","level":"INFO","service":"api","timestamp":"2021-07-22 21:15:59,795"}
+{"message":"Connection workflow succeeded: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x7f0d23211610> params=<URLParameters host=queue port=5672 virtual_host=/ ssl=False>>","level":"INFO","service":"api","timestamp":"2021-07-22 21:15:59,795"}
+{"message":"Created channel=1","level":"INFO","service":"api","timestamp":"2021-07-22 21:15:59,796"}
+{"message":"{'status': 'Finished'}","level":"INFO","service":"api","timestamp":"2021-07-22 21:15:59,803"}
+{"message":"channel_callback","level":"INFO","service":"api","timestamp":"2021-07-22 21:15:59,806"}
+{"message":"172.21.0.1 - - [22/Jul/2021 21:15:59] "POST / HTTP/1.1" 200 -","level":"INFO","service":"api","timestamp":"2021-07-22 21:15:59,806"}
+{"message":"begin processing","level":"INFO","service":"api","timestamp":"2021-07-22 21:15:59,806"}

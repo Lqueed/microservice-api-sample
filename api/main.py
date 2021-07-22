@@ -6,6 +6,7 @@ import os
 import uuid
 import pika
 import json
+from minio import Minio
 
 logger = get_logger(__name__)
 app = Flask(__name__)
@@ -25,30 +26,35 @@ parameters = pika.URLParameters(f'amqp://{username}:{password}@{host}:{port}/%2F
 jwt_secret = os.environ.get('JWT_SECRET_KEY')
 jwt_algorithm = os.environ.get('JWT_ALGORITHM')
 
+storage = Minio(
+    'storage:9000',
+    access_key=os.environ.get('MINIO_ACCESS_KEY'),
+    secret_key=os.environ.get('MINIO_SECRET_KEY'),  
+    secure=False
+)
+
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 
-@app.route('/', methods=["POST"])
+@app.route('/', methods=["GET", "POST"])
 def upload_file():
-    return render_template('index.html')
-
-@app.route('/upload', methods=["POST"])
-def receive_image():
     if request.method == "POST":
         file = request.files["file"]
-        jwt_key = request.form.get('key')
-        task_id = request.form["task_id"]
+        # jwt_key = request.form.get('key')
 
-        logger.info({
-            "Received": {
-                "file": file,
-                "task_id": task_id
-            }
-        })
+        task_id = str(uuid.uuid4())
 
-        filename = uuid.uuid4()
+        logger.info({"Received": {"file": file,"task_id": task_id}})
+
+        filename = str(uuid.uuid4())
 
         if file and allowed_file(file.filename):
-            file.save(os.path.join(app.config['UPLOAD_FOLDER'], filename))
+            size = os.fstat(file.fileno()).st_size
+            logger.info({"put to storage": file, "task_id": task_id})
+
+            storage.put_object(
+                "images", filename, file, length=-1, part_size=10*1024*1024
+            )
+ 
             task_data = {
                 "task_id": task_id,
                 "filename": filename
@@ -72,8 +78,10 @@ def receive_image():
             'status': 'Finished',
             # 'filename': output_img
         })
-        
+        return render_template('index.html')
         # return download_file(file)
+    else:
+        return render_template('index.html')
 
 
 def download_file(output_img):
