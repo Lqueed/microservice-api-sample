@@ -1,0 +1,27 @@
+version: '3.4'
+services:
+
+    api:
+        build:
+            context: ./api
+            dockerfile: Dockerfile
+        environment:
+            - HOST=0.0.0.0
+            - PORT=5000
+        ports:
+            - 5000:5000
+        volumes:
+            - ./log:/home/app/log
+            - ./upload:/upload
+            - ./export:/export
+
+    queue:
+        image: rabbitmq:3-management-alpine
+        healthcheck:
+            test: rabbitmq-diagnostics -q ping
+        environment:
+            - RABBITMQ_DEFAULT_USER=admin
+            - RABBITMQ_DEFAULT_PASS=admin1
+        ports:
+            - 5672:5672
+            - 15672:15672
