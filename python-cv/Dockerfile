@@ -6,6 +6,7 @@ WORKDIR /home/app
 
 RUN apt-get update -y
 RUN apt-get install -y python-pip python-dev build-essential
+RUN apt-get install ffmpeg libsm6 libxext6  -y
 
 # nodemon нужен на время разработки для перезапуска срипта при изменении файлов
 RUN curl -sL https://deb.nodesource.com/setup_12.x | bash -
@@ -20,6 +21,7 @@ RUN pip install aio-pika==6.6.1
 RUN pip install pamqp==2.3.0
 RUN pip install pika==1.1.0
 RUN pip install redis
+RUN pip install opencv-python
 
 COPY . .
 
