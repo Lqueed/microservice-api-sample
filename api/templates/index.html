@@ -6,10 +6,12 @@
 </head>
 
   <body>
-    <h1>Upload new File</h1>
+    <h3>First enter file name and upload image, then click Download to get responce</h3>
     <form method=post enctype=multipart/form-data>
       <input type=file name=file>
-      <input type=submit value=Upload>
+      <input type=submit value=Upload name="upload"><br>
+      <input type=text name=filename><br>
+      <input type=submit value=Download name="download">
     </form>
   </body>
 </html>
