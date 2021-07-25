@@ -14,6 +14,7 @@
     </form>
     <form method=post enctype=multipart/form-data>
       <input type=text name=downloadName id="downloadName" value="" style="display:none"><br>
+      <input type=text name=filename id="nameToDownload" style="display:none"><br>
       <div style="display:none" id="downloadButton">{{ uploadedFile }} <input type=submit value="Download" name="download"></div>
       <div style="display:none" id="readyError">{{ readyErr }}</div>
     </form>
@@ -22,14 +23,17 @@
 
 <script>
   let uploadedFile = "{{ uploadedFile }}"
+  let task_id = "{{ task_id }}"
   let readyErr = "{{ readyErr }}"
   let textField = document.getElementById("downloadName")
+  let nameToDownload = document.getElementById("nameToDownload")
   let error = document.getElementById("readyError")
   let downloadButton = document.getElementById("downloadButton")
 
   if (uploadedFile != "") {
     let textField = document.getElementById("downloadName")
-    textField.value = uploadedFile
+    nameToDownload.value = uploadedFile
+    textField.value = task_id
     downloadButton.style.display = ""
   }
 
