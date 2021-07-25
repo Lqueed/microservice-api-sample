@@ -23,21 +23,21 @@ storage = get_minio()
 
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 
-@app.route('/', methods=["GET", "POST"])
+@app.route('/', methods=['GET', 'POST'])
 def upload_file():
-    if request.method == "POST":
+    if request.method == 'POST':
         if request.form.get('upload') == 'Upload':
-            file = request.files["file"]
-            filename = request.form["filename"]
+            file = request.files['file']
+            filename = request.form['filename']
             task_id = str(uuid.uuid4())
-            logger.info({"Received": {"file": file,"task_id": task_id, "filename": filename}})
+            logger.info({'Received': {'file': file,'task_id': task_id, 'filename': filename}})
             filename_uuid = str(uuid.uuid4())
 
             if file and allowed_file(file.filename):
                 size = os.fstat(file.fileno()).st_size
                 logger.info(f'put to storage {file}, task_id: {task_id}')
-                storage.put_object("images", filename_uuid, file, length=-1, part_size=10*1024*1024)
-                task_data = {"task_id": task_id,"filename": filename, 'filename_uuid':filename_uuid}
+                storage.put_object('images', filename_uuid, file, length=-1, part_size=10*1024*1024)
+                task_data = {'task_id': task_id,'filename': filename, 'filename_uuid':filename_uuid}
 
                 try:
                     logger.info(f'Задача {task_id} отправлена в очередь')
@@ -47,19 +47,24 @@ def upload_file():
                     raise
 
             logger.info('task uploaded')
+            return render_template('index.html', uploadedFile=filename)
 
-        elif request.form.get('download') == 'Download':
-            filename = request.form["filename"]
-            return download_file(filename)
+        elif request.form.get('downloadName') != '':
+            filename = request.form['downloadName']
+            return download_file(filename)         
 
-    return render_template('index.html')
+    return render_template('index.html', uploadedFile='')
 
 
 def download_file(filename):
     filename_processed = f'{filename}_detected'
-    file = storage.get_object("images", filename_processed)
-    logger.info(f'Download file {filename_processed}')
-    return send_file(file, attachment_filename=f'{filename}.jpg', as_attachment=True)
+    try:
+        file = storage.get_object('images', filename_processed)
+        logger.info(f'Download file {filename_processed}')
+        return send_file(file, attachment_filename=f'{filename}.jpg', as_attachment=True)
+    except BaseException as e:
+        logger.error('File is not ready')
+        return render_template('index.html', readyErr='File is not ready yet - try a bit later', uploadedFile=filename)
 
 
 def allowed_file(filename):
