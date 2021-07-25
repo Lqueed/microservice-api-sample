@@ -50,6 +50,6 @@ ENV FLASK_DEBUG=1
 ENV FLASK_ENV=development
 
 FROM base as prod
-CMD ["nodemon", "--legacy-watch", "--exec", "python" , "main.py"]
-ENV FLASK_DEBUG=1
-ENV FLASK_ENV=development
+CMD ["--exec", "python" , "main.py"]
+ENV FLASK_DEBUG=0
+ENV FLASK_ENV=production
