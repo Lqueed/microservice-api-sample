@@ -9,6 +9,7 @@ face_cascade_db = cv2.CascadeClassifier(
 
 def detect_face(filepath):
     try:
+        # receive image from local and process
         img = cv2.imread(filepath)
         img_gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
         faces = face_cascade_db.detectMultiScale(img_gray, 1.1, 19)
@@ -17,6 +18,7 @@ def detect_face(filepath):
         logger.info(f'detected {len(faces)} faces')
         filepath_new = f'{filepath}_detected.jpg'
         cv2.imwrite(filepath_new, img)
+        os.remove(filepath)
         return filepath_new
     except Exception:
         logger.error('error processing image', exc_info=True)

@@ -15,27 +15,27 @@ tmp_folder = 'src/tmp'
 
 def process_received_task(params, channel):
     task_id = str(params['task_id'])
-    filename_uuid = str(params['filename_uuid'])
     filename = str(params['filename'])
     logger.info("begin processing")
-    logger.info(f'task_id: {task_id}, filename: {filename}, filename_uuid: {filename_uuid}')
+    logger.info(f'task_id: {task_id}, filename: {filename}')
 
     # get image from minio and save
     try:
-        filepath = f'{tmp_folder}/{filename}'
-        storage.fget_object("images", filename_uuid, filepath)
+        filepath = f'{tmp_folder}/{task_id}'
+        storage.fget_object("images", task_id, filepath)
 
         # save task data to redis
         task_data = {
-            'filename_uuid': filename_uuid,
             'filename': filename,
             'uploaded_at': datetime.now(),
             'task_id': task_id
         }
-        tasks.set(filename, pickle.dumps(task_data))
+        tasks.set(task_id, pickle.dumps(task_data))
 
         filename_detected = detect_face(filepath)
-        storage.fput_object("images", f'{filename}_detected', filename_detected)
+        # push into minio and delete local file
+        storage.fput_object("images", f'{task_id}_detected', filename_detected)
+        os.remove(filename_detected)
 
         logger.info('file saved')
         logger.info(f'task_id: {task_id}, filename: {filename_detected}')

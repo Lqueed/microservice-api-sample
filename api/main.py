@@ -26,19 +26,20 @@ app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 @app.route('/', methods=['GET', 'POST'])
 def upload_file():
     if request.method == 'POST':
+        # receive uploaded image
         if request.form.get('upload') == 'Upload':
+            task_id = str(uuid.uuid4())
             file = request.files['file']
             filename = request.form['filename']
-            task_id = str(uuid.uuid4())
             logger.info({'Received': {'file': file,'task_id': task_id, 'filename': filename}})
-            filename_uuid = str(uuid.uuid4())
 
             if file and allowed_file(file.filename):
                 size = os.fstat(file.fileno()).st_size
                 logger.info(f'put to storage {file}, task_id: {task_id}')
-                storage.put_object('images', filename_uuid, file, length=-1, part_size=10*1024*1024)
-                task_data = {'task_id': task_id,'filename': filename, 'filename_uuid':filename_uuid}
+                storage.put_object('images', task_id, file, length=-1, part_size=10*1024*1024)
+                task_data = {'task_id': task_id,'filename': filename}
 
+                # send to queue
                 try:
                     logger.info(f'Задача {task_id} отправлена в очередь')
                     send_to_queue(task_data, 'task_queue')
@@ -47,17 +48,20 @@ def upload_file():
                     raise
 
             logger.info('task uploaded')
-            return render_template('index.html', uploadedFile=filename)
+            return render_template('index.html', uploadedFile=filename, task_id=task_id)
 
         elif request.form.get('downloadName') != '':
-            filename = request.form['downloadName']
-            return download_file(filename)         
+            # begin download
+            filename = request.form['filename']
+            task_id = request.form['downloadName']
+            return download_file(task_id, filename)         
 
     return render_template('index.html', uploadedFile='')
 
 
-def download_file(filename):
-    filename_processed = f'{filename}_detected'
+def download_file(task_id, filename):
+# Download file using filename from upload form
+    filename_processed = f'{task_id}_detected'
     try:
         file = storage.get_object('images', filename_processed)
         logger.info(f'Download file {filename_processed}')
@@ -68,6 +72,7 @@ def download_file(filename):
 
 
 def allowed_file(filename):
+# Check file extension
     return '.' in filename and \
         filename.split('.')[-1].lower() in ALLOWED_EXTENSIONS
 
