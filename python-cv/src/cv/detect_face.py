@@ -14,6 +14,7 @@ def detect_face(filepath):
         faces = face_cascade_db.detectMultiScale(img_gray, 1.1, 19)
         for (x, y, w, h) in faces:
             cv2.rectangle(img, (x, y), (x+w, y+h), (0, 255, 0), 2)
+        logger.info(f'detected {len(faces)} faces')
         filepath_new = f'{filepath}_detected.jpg'
         cv2.imwrite(filepath_new, img)
         return filepath_new

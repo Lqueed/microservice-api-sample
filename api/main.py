@@ -35,7 +35,7 @@ def upload_file():
 
             if file and allowed_file(file.filename):
                 size = os.fstat(file.fileno()).st_size
-                logger.info({"put to storage": file, "task_id": task_id})
+                logger.info(f'put to storage {file}, task_id: {task_id}')
                 storage.put_object("images", filename_uuid, file, length=-1, part_size=10*1024*1024)
                 task_data = {"task_id": task_id,"filename": filename, 'filename_uuid':filename_uuid}
 
@@ -46,7 +46,7 @@ def upload_file():
                     logger.error(str(e), exc_info=True)
                     raise
 
-            logger.info({'status': 'task uploaded'})
+            logger.info('task uploaded')
 
         elif request.form.get('download') == 'Download':
             filename = request.form["filename"]
@@ -58,10 +58,7 @@ def upload_file():
 def download_file(filename):
     filename_processed = f'{filename}_detected'
     file = storage.get_object("images", filename_processed)
-    logger.info({
-        'status': 'Download file',
-        'filename': filename_processed
-    })
+    logger.info(f'Download file {filename_processed}')
     return send_file(file, attachment_filename=f'{filename}.jpg', as_attachment=True)
 
 

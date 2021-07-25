@@ -18,7 +18,7 @@ def process_received_task(params, channel):
     filename_uuid = str(params['filename_uuid'])
     filename = str(params['filename'])
     logger.info("begin processing")
-    logger.info({"task_id": task_id, "filename": filename, "filename_uuid": filename_uuid})
+    logger.info(f'task_id: {task_id}, filename: {filename}, filename_uuid: {filename_uuid}')
 
     # get image from minio and save
     try:
@@ -38,7 +38,7 @@ def process_received_task(params, channel):
         storage.fput_object("images", f'{filename}_detected', filename_detected)
 
         logger.info('file saved')
-        logger.info({"task_id": task_id, "filename": filename_detected})
+        logger.info(f'task_id: {task_id}, filename: {filename_detected}')
 
     except Exception:
         logger.error('error receiving image', exc_info=True)
