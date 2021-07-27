@@ -13,7 +13,8 @@ def on_channel_open(channel):
 
 def channel_callback(ch, method, props, body):
     logger.info('channel_callback')
-    ch.basic_ack(method.delivery_tag)
 
     requestData = json.loads(body)
     process_received_task(requestData, ch)
+    
+    ch.basic_ack(method.delivery_tag)
